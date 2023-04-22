@@ -1,9 +1,9 @@
-# JavaScript Algoritmalar ve Veri Yapıları
+# JavaScript Algoritmaları ve Veri Yapıları
 
 [![CI](https://github.com/trekhleb/javascript-algorithms/workflows/CI/badge.svg)](https://github.com/trekhleb/javascript-algorithms/actions?query=workflow%3ACI+branch%3Amaster)
 [![codecov](https://codecov.io/gh/trekhleb/javascript-algorithms/branch/master/graph/badge.svg)](https://codecov.io/gh/trekhleb/javascript-algorithms)
 
-Bu repository popüler algoritmaların ve veri yapılarının birçoğunun Javascript tabanlı örneklerini bulundurur.
+Bu Depo popüler algoritmaların ve veri yapılarının birçoğunun Javascript tabanlı örneklerini bulundurur.
 
 Her bir algoritma ve veri yapısı kendine
 ait açıklama ve videoya sahip README dosyası içerir.
@@ -37,23 +37,23 @@ veriye uygulanabilir.
 
 `B` - Başlangıç, `A` - İleri Seviye
 
-* `B` [Bağlantılı Veri Yapısı](src/data-structures/linked-list)
+* `B` [Bağlantılı Liste](src/data-structures/linked-list)
 * `B` [Çift Yönlü Bağlı Liste](src/data-structures/doubly-linked-list)
-* `B` [Kuyruk](src/data-structures/queue)
+* `B` [Sıra](src/data-structures/queue)
 * `B` [Yığın](src/data-structures/stack)
-* `B` [Hash Table](src/data-structures/hash-table)
-* `B` [Heap](src/data-structures/heap) - max and min heap versions
-* `B` [Öncelikli Kuyruk](src/data-structures/priority-queue)
+* `B` [Hash Tablosu](src/data-structures/hash-table)
+* `B` [Öbek](src/data-structures/heap) - Maksimum ve Minumum Öbek versiyonları
+* `B` [Öncelikli Sıra](src/data-structures/priority-queue)
 * `A` [Trie](src/data-structures/trie)
-* `A` [Ağaç](src/data-structures/tree)
+* `A` [Veri Yapı Ağaçı](src/data-structures/tree)
   * `A` [İkili Arama Ağaçları](src/data-structures/tree/binary-search-tree)
-  * `A` [AVL Tree](src/data-structures/tree/avl-tree)
-  * `A` [Red-Black Tree](src/data-structures/tree/red-black-tree)
-  * `A` [Segment Tree](src/data-structures/tree/segment-tree) - with min/max/sum range queries examples
-  * `A` [Fenwick Tree](src/data-structures/tree/fenwick-tree) (Binary Indexed Tree)
-* `A` [Graph](src/data-structures/graph) (both directed and undirected)
-* `A` [Disjoint Set](src/data-structures/disjoint-set)
-* `A` [Bloom Filter](src/data-structures/bloom-filter)
+  * `A` [AVL Ağacı](src/data-structures/tree/avl-tree)
+  * `A` [Kırmızı-Siyah Ağaç](src/data-structures/tree/red-black-tree)
+  * `A` [Bölüm Ağacı](src/data-structures/tree/segment-tree) - min/maks/toplam aralığı sorgu örnekleri ile
+  * `A` [Fenwick ağacı](src/data-structures/tree/fenwick-tree) (İkili Dizinlenmiş Ağaç)
+* `A` [Grafik](src/data-structures/graph) (hem yönlendirilmiş hem de yönlendirilmemiş)
+* `A` [Ayrık Küme](src/data-structures/disjoint-set)
+* `A` [Bloom Filtresi](src/data-structures/bloom-filter)
 
 ## Algoritmalar
 
@@ -66,7 +66,7 @@ Bir işlem dizisini açık olarak tanımlayan kurallar dizisidir.
 ### Konusuna göre Algoritma
 
 * **Matematik**
-  * `B` [Bit Manipülasyonu](src/algorithms/math/bits) - set/get/update/clear bits, multiplication/division by two, make negative etc.
+  * `B` [Bit Manipülasyonu](src/algorithms/math/bits) - bitleri ayarla/al/güncelle/temizle, ikiye bölme/çarpma, negatif yapma vb.
   * `B` [İkili Kayan Nokta](src/algorithms/math/binary-floating-point) - kayan noktalı sayıların ikilik sistemde gösterimi.
   * `B` [Faktöriyel](src/algorithms/math/factorial)
   * `B` [Fibonacci Sayısı](src/algorithms/math/fibonacci) - klasik ve kapalı-form versiyonları
@@ -89,7 +89,7 @@ Bir işlem dizisini açık olarak tanımlayan kurallar dizisidir.
 * **Setler**
   * `B` [Kartezyen Ürün](src/algorithms/sets/cartesian-product) - birden fazla kümenin çarpımı
   * `B` [Fisher–Yates Shuffle](src/algorithms/sets/fisher-yates) - sonlu bir dizinin rastgele permütasyonu
-  * `A` [Power Set](src/algorithms/sets/power-set) - all subsets of a set (bit düzeyinde ve geri izleme yöntemleri)
+  * `A` [Güç Kümesi](src/algorithms/sets/power-set) - Bir kümenin bütün alt kümeleri (bit düzeyinde ve geri izleme yöntemleri)
   * `A` [Permütasyonlar](src/algorithms/sets/permutations)(tekrarlı ve tekrarsız)
   * `A` [Kombinasyonlar](src/algorithms/sets/combinations) (tekrarlı ve tekrarsız)
   * `A` [En Uzun Ortak Altdizi](src/algorithms/sets/longest-common-subsequence) (LCS)
@@ -108,48 +108,48 @@ Bir işlem dizisini açık olarak tanımlayan kurallar dizisidir.
   * `A` [Regular Expression Eşleme](src/algorithms/string/regular-expression-matching)
 * **Aramalar**
   * `B` [Doğrusal Arama](src/algorithms/search/linear-search)
-  * `B` [Jump Search](src/algorithms/search/jump-search) (ya da Block Search) - sıralı dizide arama
+  * `B` [Jump Araması](src/algorithms/search/jump-search) (ya da Block Araması) - sıralı dizide arama
   * `B` [İkili Arama](src/algorithms/search/binary-search) - sıralı dizide arama
-  * `B` [Interpolation Search](src/algorithms/search/interpolation-search) - tekdüze dağıtılmış sıralı dizide arama
+  * `B` [İnterpolasyon Araması](src/algorithms/search/interpolation-search) - tekdüze dağıtılmış sıralı dizide arama
 * **Sıralama**
-  * `B` [Bubble Sort](src/algorithms/sorting/bubble-sort)
-  * `B` [Selection Sort](src/algorithms/sorting/selection-sort)
-  * `B` [Insertion Sort](src/algorithms/sorting/insertion-sort)
-  * `B` [Heap Sort](src/algorithms/sorting/heap-sort)
-  * `B` [Merge Sort](src/algorithms/sorting/merge-sort)
-  * `B` [Quicksort](src/algorithms/sorting/quick-sort) - in-place and non-in-place implementations
-  * `B` [Shellsort](src/algorithms/sorting/shell-sort)
-  * `B` [Counting Sort](src/algorithms/sorting/counting-sort)
-  * `B` [Radix Sort](src/algorithms/sorting/radix-sort)
+  * `B` [Kabarcık Sınıflandırması](src/algorithms/sorting/bubble-sort)
+  * `B` [Selection Sınıflandırması](src/algorithms/sorting/selection-sort)
+  * `B` [Insertion Sınıflandırması](src/algorithms/sorting/insertion-sort)
+  * `B` [Heap Sınıflandırması](src/algorithms/sorting/heap-sort)
+  * `B` [Merge Sınıflandırması](src/algorithms/sorting/merge-sort)
+  * `B` [Çabuk Sınıflandırma](src/algorithms/sorting/quick-sort) - in-place and non-in-place implementations
+  * `B` [Kabuk sıralaması](src/algorithms/sorting/shell-sort)
+  * `B` [Sıralama sayma](src/algorithms/sorting/counting-sort)
+  * `B` [Radix sınıflandırması](src/algorithms/sorting/radix-sort)
 * **Bağlantılı Liste**
   * `B` [Straight Traversal](src/algorithms/linked-list/traversal)
   * `B` [Reverse Traversal](src/algorithms/linked-list/reverse-traversal)
 * **Ağaçlar**
-  * `B` [Depth-First Search](src/algorithms/tree/depth-first-search) (DFS)
+  * `B` [Derin-İlk Arama](src/algorithms/tree/depth-first-search) (DFS/DIA)
   * `B` [Breadth-First Search](src/algorithms/tree/breadth-first-search) (BFS)
-* **Graphs**
-  * `B` [Depth-First Search](src/algorithms/graph/depth-first-search) (DFS)
-  * `B` [Breadth-First Search](src/algorithms/graph/breadth-first-search) (BFS)
-  * `B` [Kruskal’s Algorithm](src/algorithms/graph/kruskal) - ağırlıklı yönlendirilmemiş grafik için Minimum Yayılma Ağacı'nı (MST) bulma
-  * `A` [Dijkstra Algorithm](src/algorithms/graph/dijkstra) - tek tepe noktasından tüm grafik köşelerine en kısa yolları bulmak
-  * `A` [Bellman-Ford Algorithm](src/algorithms/graph/bellman-ford) - tek tepe noktasından tüm grafik köşelerine en kısa yolları bulmak
-  * `A` [Floyd-Warshall Algorithm](src/algorithms/graph/floyd-warshall) - tüm köşe çiftleri arasındaki en kısa yolları bulun
-  * `A` [Detect Cycle](src/algorithms/graph/detect-cycle) - hem yönlendirilmiş hem de yönlendirilmemiş grafikler için (DFS ve Ayrık Küme tabanlı sürümler)
-  * `A` [Prim’s Algorithm](src/algorithms/graph/prim) - ağırlıklı yönlendirilmemiş grafik için Minimum Yayılma Ağacı'nı (MST) bulma
-  * `A` [Topological Sorting](src/algorithms/graph/topological-sorting) - DFS metodu
-  * `A` [Articulation Points](src/algorithms/graph/articulation-points) - Tarjan's algoritması (DFS based)
-  * `A` [Bridges](src/algorithms/graph/bridges) - DFS yöntemi ile algoritma
-  * `A` [Eulerian Path and Eulerian Circuit](src/algorithms/graph/eulerian-path) - Fleury'nin algoritması - Her kenara tam olarak bir kez ulaş
-  * `A` [Hamiltonian Cycle](src/algorithms/graph/hamiltonian-cycle) - Her köşeyi tam olarak bir kez ziyaret et
-  * `A` [Strongly Connected Components](src/algorithms/graph/strongly-connected-components) - Kosaraju's algorithm
-  * `A` [Travelling Salesman Problem](src/algorithms/graph/travelling-salesman) - her şehri ziyaret eden ve başlangıç ​​şehrine geri dönen mümkün olan en kısa rota
+* **Grafikler**
+  * `B` [Derin-İlk Arama](src/algorithms/graph/depth-first-search) (DFS/DIA)
+  * `B` [Geniş-İlk Arama](src/algorithms/graph/breadth-first-search) (BFS/GIA)
+  * `B` [Kruskal’ın Algoritması](src/algorithms/graph/kruskal) - ağırlıklı yönlendirilmemiş grafik için Minimum Yayılma Ağacı'nı (MST) bulma
+  * `A` [Dijkstra Algoritması](src/algorithms/graph/dijkstra) - tek tepe noktasından tüm grafik köşelerine en kısa yolları bulmak
+  * `A` [Bellman-Ford Algoritması](src/algorithms/graph/bellman-ford) - tek tepe noktasından tüm grafik köşelerine en kısa yolları bulmak
+  * `A` [Floyd-Warshall Algoritması](src/algorithms/graph/floyd-warshall) - tüm köşe çiftleri arasındaki en kısa yolları bulun
+  * `A` [Tespit Döngüsü](src/algorithms/graph/detect-cycle) - hem yönlendirilmiş hem de yönlendirilmemiş grafikler için (DFS ve Ayrık Küme tabanlı sürümler)
+  * `A` [Prim’s Algoritması](src/algorithms/graph/prim) - ağırlıklı yönlendirilmemiş grafik için Minimum Yayılma Ağacı'nı (MST) bulma
+  * `A` [Topolojik Sınıflandırma](src/algorithms/graph/topological-sorting) - DFS metodu
+  * `A` [Artikülasyon Noktaları](src/algorithms/graph/articulation-points) - Tarjan's algoritması (DFS based)
+  * `A` [Köprüler](src/algorithms/graph/bridges) - DFS yöntemi ile algoritma
+  * `A` [Euler Yolu ve Euler Devresi](src/algorithms/graph/eulerian-path) - Fleury'nin algoritması - Her kenara tam olarak bir kez ulaş
+  * `A` [Hamiltoniyen Döngüsü](src/algorithms/graph/hamiltonian-cycle) - Her köşeyi tam olarak bir kez ziyaret et
+  * `A` [Güçlü Bağlantılı Bileşenler](src/algorithms/graph/strongly-connected-components) - Kosaraju's algorithm
+  * `A` [Gezgin Satıcının Problemi](src/algorithms/graph/travelling-salesman) - her şehri ziyaret eden ve başlangıç ​​şehrine geri dönen mümkün olan en kısa rota
 * **Kriptografi**
-  * `B` [Polynomial Hash](src/algorithms/cryptography/polynomial-hash) - polinom temelinde dönen hash işlevi
-  * `B` [Caesar Cipher](src/algorithms/cryptography/caesar-cipher) - simple substitution cipher
+  * `B` [Polinom Hash](src/algorithms/cryptography/polynomial-hash) - polinom temelinde dönen hash işlevi
+  * `B` [Sezar Şifresi](src/algorithms/cryptography/caesar-cipher) - basit ikame şifresi
 * **Makine Öğrenmesi**
-  * `B` [NanoNeuron](https://github.com/trekhleb/nano-neuron) - 7 simple JS functions that illustrate how machines can actually learn (forward/backward propagation)
+  * `B` [NanoNöron](https://github.com/trekhleb/nano-neuron) - 7 simple JS functions that illustrate how machines can actually learn (forward/backward propagation)
 * **Kategoriye Ayrılmayanlar**
-  * `B` [Tower of Hanoi](src/algorithms/uncategorized/hanoi-tower)
+  * `B` [Hanoinin Kulesi](src/algorithms/uncategorized/hanoi-tower)
   * `B` [Square Matrix Rotation](src/algorithms/uncategorized/square-matrix-rotation) - in-place algorithm
   * `B` [Jump Game](src/algorithms/uncategorized/jump-game) - backtracking, dynamic programming (top-down + bottom-up) and greedy examples
   * `B` [Unique Paths](src/algorithms/uncategorized/unique-paths) - backtracking, dynamic programming and Pascal's Triangle based examples

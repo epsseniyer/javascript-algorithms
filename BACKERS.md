@@ -1,4 +1,4 @@
-# Project Backers
+# Project Backers.
 
 > You may support this project via ❤️️ [GitHub](https://github.com/sponsors/trekhleb) or ❤️️ [Patreon](https://www.patreon.com/trekhleb).
 

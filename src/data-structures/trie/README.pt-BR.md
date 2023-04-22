@@ -1,4 +1,4 @@
-# Árvore de Prefixos (Trie)
+# Árvore de Prefixos (Trie).
 
 Na ciência da computação, uma **trie**, também chamada de árvore digital (digital tree)
 e algumas vezes de _radix tree_ ou _prefix tree_ (tendo em vista que eles
